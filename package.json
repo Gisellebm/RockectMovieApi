@@ -1,0 +1,27 @@
+{
+  "name": "movieapi",
+  "version": "1.0.0",
+  "description": "Projeto de uma aplicação em Node.js para cadastrar filme como desafio do Módulo 8 do Curso Explorer da rockectseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "Giselle Brasil Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "knex": "^3.0.1",
+    "save": "^2.9.0",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
