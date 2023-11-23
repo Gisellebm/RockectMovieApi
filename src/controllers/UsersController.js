@@ -4,7 +4,7 @@ const knex = require("../database/knex")
 
 const UserRepository = require('../repositories/UserRepository')
 const sqliteConnection = require('../database/sqlite')
-const UserCreateService = require('../services/UserCreateService')
+const UserCreateService = require('../services/UserCreateService.js')
 
 class UsersController {
     async create(request, response) {
